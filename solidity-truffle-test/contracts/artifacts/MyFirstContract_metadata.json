@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getMensagem",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "mensagem",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/MyFirstContract.sol": "MyFirstContract"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/MyFirstContract.sol": {
+			"keccak256": "0x359d0053a8201e1cc894ab2f988ddb69a3216a05f50efc1059de83f0ca0ec3ca",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://653691ba40ba3355b1b25ec482da09f145eb52ca3773dfebbc3841c62b0e468d",
+				"dweb:/ipfs/QmTGNda7bPEyefQFr9tNDepEV5QvtSXzAVbtSr2CZMfTaf"
+			]
+		}
+	},
+	"version": 1
+}
